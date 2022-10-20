@@ -27,6 +27,8 @@ public class JDBCUtils {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    //    测试
+        System.out.println("good idea");
     }
 
     public static final Connection getConnection(){
